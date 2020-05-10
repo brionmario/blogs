@@ -1,0 +1,164 @@
+/**
+ * Copyright (c) 2019, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ *
+ */
+
+@imagePath : "assets/images";
+@fontPath  : "assets/fonts";
+
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@iconFont          : "font-wso2";
+@fontName          : -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, HelveticaNeue-Light, Ubuntu, Droid Sans, sans-serif, @iconFont;
+@googleFontName    : 'Lato';
+
+@bold              : 400;
+@lightFontColor    : @lightTextColor;
+
+/*-------------------
+     Borders
+--------------------*/
+
+@relativeBorderRadius: 8px;
+@absoluteBorderRadius: 8px;
+@defaultBorderRadius : @absoluteBorderRadius;
+
+@defaultBorderWidth  : 1px;
+@borderColor         : #3f4042;
+@defaultBorderColor  : @borderColor;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor         : @facebookBlue;
+@globalBackgroundColor: #18191a;
+@globalForegroundColor: #242526;
+
+/*-------------------
+        Page
+--------------------*/
+
+@pageBackground      : @globalBackgroundColor;
+
+@textColor           : #e4e6eb;
+
+/*-------------------
+    Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@teal             : #22b7b1;
+@blue             : #006faa;
+@black            : #464646;
+@green            : #7cd25a;
+@orange           : #ff5000;
+@lightGray        : #f1f1f1;
+@darkGray         : #d9d9d9;
+@athensGray       : #f9fafb;
+@nobel            : #969696;
+@iron             : #DADCE0;
+@whiteSmoke       : #f5f5f5;
+@dustyGray        : #9c9c9c;
+@galleryGray      : #eeeeee;
+@doveGray         : #666666;
+@dullGreen        : #34a850;
+@paleGray         : #D6D6D6;
+@facebookBlue     : #2d88ff;
+
+/*-------------------
+     Image Sizes
+--------------------*/
+
+@littleWidth: 48px;
+
+/*-------------------
+    Icon Sizes
+--------------------*/
+
+@iconNano: 10px;
+@iconMicro: 18px;
+@iconMini: 35px;
+@iconTiny: 80px;
+@iconSmall: 150px;
+@iconMedium: 300px;
+@iconLarge: 450px;
+@iconBig: 600px;
+@iconHuge: 800px;
+@iconMassive: 960px;
+
+/*-------------------
+   Header Component
+--------------------*/
+@headerHeight: 58px;
+
+/*--------------
+  Page Heading
+---------------*/
+
+@h3 : unit((22 / 14), rem);
+@h4 : unit((19 / 14), rem);
+@h5 : unit((16 / 14), rem);
+@h6 : unit((14 / 14), rem);
+
+@h6SubHeaderFontSize: unit((12 / 14), rem);
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : @primaryColor;
+@linkHoverUnderline  : underline;
+
+/*-------------------
+   Advanced search
+--------------------*/
+
+@advancedSearchWidth: 320px;
+@advancedSearchDropdownMinWidth: 260px;
+@advancedSearchDropdownMaxWidth: 520px;
+@advancedSearchBorder: 1px solid @borderColor;
+
+
+/*-------------------------
+   Overview page widgets
+--------------------------*/
+
+@overviewPageWidgetHeaderMinHeight: 155px;
+
+/*-------------------------
+           Card
+--------------------------*/
+
+@defaultCardHoverBoxShadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+@defaultCardTransition: all 0.3s;
+@defaultCardBorder: 1px solid #e8e8e8;
+
+/*--------------
+   Form Input
+---------------*/
+
+@inputBackground        : #3a3b3c;
+
+/*-------------------
+     Neutral Text
+--------------------*/
+
+@mutedTextColor       : darken(@textColor, 10);

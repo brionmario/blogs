@@ -1,0 +1,18 @@
+/*******************************
+             Form
+*******************************/
+
+/*-------------------
+       Elements
+--------------------*/
+
+/* Input */
+@inputBorderRadius: 20px;
+
+/*-------------------
+        States
+--------------------*/
+
+/* Input Focus */
+@inputFocusBorderColor: transparent;
+@inputFocusColor: @textColor;

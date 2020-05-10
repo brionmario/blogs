@@ -1,0 +1,313 @@
+/*!
+ * Copyright (c) 2019, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ *
+ */
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.menu.fixed {
+    &.app-header, &.app-footer {
+        .item {
+            &:hover, &:active, &:focus, &:visited {
+                background: transparent;
+            }
+        }
+    }
+    &.app-header {
+        box-shadow: none;
+
+        .user-dropdown {
+            &:hover {
+                background: transparent;
+            }
+            .divider {
+                margin: 0;
+            }
+            .user-dropdown-trigger {
+                .username {
+                    min-width: 100px;
+                    display: inline-block;
+                    margin-right: 0.7em;
+                    text-align: right;
+                }
+            }
+            .header {
+                .name {
+                    font-weight: bold;
+                    min-width: 100px;
+                }
+                .email {
+                    color: @nobel;
+                    min-width: 100px;
+                }
+            }
+            .linked-accounts-list {
+                max-height: 200px;
+                overflow: auto;
+            }
+            .linked-account {
+                background: @whiteSmoke;
+                border-top: 1px solid #ccc;
+                border-top-color: rgba(0,0,0,.2);
+                margin-top: 0;
+                margin-bottom: 0;
+
+                &:hover {
+                    cursor: pointer;
+                    background: darken(@whiteSmoke, 2);
+                }
+                &:first-child {
+                    border-top: 0;
+                }
+                .name {
+                    font-weight: 400;
+                }
+                .email {
+                    color: @nobel;
+                }
+            }
+            .action-panel {
+                border-top: 1px solid @defaultBorderColor;
+                border-color: rgba(0,0,0,.2);
+                padding: 10px 5px;
+
+                &:hover {
+                    background: transparent !important;
+                }
+
+                .action-button {
+                    line-height: 28px;
+                    padding: 6px 20px;
+                    color: @textColor;
+
+                    &, &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        &:not(.fluid-header) {
+            .user-dropdown {
+                padding-right: 0;
+            }
+        }
+        .ui.dropdown.item.user-dropdown .menu .item.linked-account {
+            &, &:not(.filtered) {
+                display: flex;
+                padding: @relativeMini @relativeLarge;
+            }
+        }
+        .ui.dropdown.item.user-dropdown .menu .item.header {
+            &, &:not(.filtered) {
+                display: flex;
+                padding: @relativeMini @relativeLarge;
+            }
+            .ui.divider {
+                margin: 0.5rem 0rem;
+            }
+        }
+    }
+    &.app-footer {
+        min-height: @appFooterMinHeight;
+
+        .footer-link, .footer-dropdown .dropdown-trigger.link {
+            color: @primaryColor;
+
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.ui.vertical.menu {
+    &.side-panel {
+        background: @globalBackgroundColor;
+        // override the box shadow and border in the semantic ui menu component
+        box-shadow: none;
+        border-radius: 0;
+
+        &.desktop {
+            border: none;
+
+            .side-panel-item {
+                &:before {
+                    display: none;
+                }
+                &.active {
+                    background: transparent;
+                }
+            }
+        }
+
+        &.mobile {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+
+            .side-panel-item {
+                .caret {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .side-panel-item {
+            border-radius: @defaultBorderRadius;
+
+            .route-name {
+                cursor: pointer;
+                color: @sidePanelDefaultFontColor;
+                padding: 10px 5px;
+            }
+
+            svg, .icon {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: 1;
+
+                .path {
+                    fill: @sidePanelDefaultFontColor;
+                }
+            }
+
+            .left-icon {
+                margin-top: -2px;
+            }
+
+            .caret {
+                margin-right: -15px;
+                margin-top: 2px;
+                transition: transform .3s ease-in-out;
+
+                svg.icon {
+                    height: 10px;
+                    width: 10px;
+                }
+                &.down {
+                    transform: rotate(90deg);
+                }
+            }
+
+            &.active {
+                // override semantic ui menu item active background color
+                background-color: @sidePanelActiveBackground !important;
+
+                .route-name {
+                    color: @sidePanelActiveFontColor;
+                }
+                svg, .icon {
+                    .path {
+                        fill: @sidePanelActiveFontColor;
+                    }
+                }
+            }
+
+            &:hover {
+                // override semantic ui menu item hover background color
+                background-color: @sidePanelHoverBackground;
+                border-radius: @defaultBorderRadius;
+
+                .route-name {
+                    color: @sidePanelHoverFontColor;
+                }
+                svg, .icon {
+                    .path {
+                        fill: @sidePanelHoverFontColor;
+                    }
+                }
+            }
+        }
+
+        .child-routes {
+            padding-left: @sidePanelChildItemGroupLeftPadding;
+            max-height: 0;
+            visibility: hidden;
+            overflow: hidden;
+            transition: max-height 0.5s ease 0s, visibility 0.5s ease 0s;
+
+            &.open {
+                visibility: visible;
+            }
+            .item {
+                font-size: inherit;
+                padding: @sidePanelChildItemPadding;
+
+                .left-icon {
+                    height: 8px;
+                    width: 8px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+}
+
+// Fix for the unstackable list item images getting weird sizes on mobile.
+@media only screen and (max-width: @tabletBreakpoint) {
+    .ui.menu.fixed {
+        &.app-header {
+            .user-dropdown {
+                .authenticated-user {
+                    .ui.image.user-image.tiny {
+                        width: 80px !important;
+                    }
+                }
+                .linked-accounts-list {
+                    .ui.image.user-image.little {
+                        width: @littleWidth !important;
+                    }
+                }
+            }
+            // Fix for username and avatar in the header being pushed right to the right edge in tablet view
+            &:not(.fluid-header) {
+                .user-dropdown {
+                    padding-right: 0.92857143em;
+                }
+            }
+        }
+    }
+}
+
+/*******************************************
+               Pagination
+*******************************************/
+
+.ui.pagination.menu {
+    &.list-pagination {
+         box-shadow: none;
+         border: none;
+
+         > .item {
+            border: @defaultBorderWidth solid @defaultBorderColor;
+            border-radius: @defaultBorderRadius;
+
+            &:not(:last-child) {
+                margin-right: @listPaginationMarginRight;
+            }
+            &:before {
+                display: none;
+            }
+            &:focus {
+                outline: none;
+            }
+         }
+    }
+}
