@@ -18,7 +18,9 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "lint": "eslint -c .eslintrc.js --ext .js,.jsx .",
-        "lint:fix": "npm run lint -- --fix"
+        "lint:fix": "npm run lint -- --fix",
+        "lint:staged": "lint-staged",
+        "prepare": "husky install"
     },
     "browserslist": {
         "production": [
@@ -31,5 +33,9 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "lint-staged": "^11.1.2",
+        "husky": "^7.0.0"
     }
 }
