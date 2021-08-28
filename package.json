@@ -1,0 +1,10 @@
+{
+    "name": "@brionmario/blog-resources",
+    "private": true,
+    "workspaces": [
+        "technical/*"
+    ],
+    "devDependencies": {
+        "lerna": "^3.22.1"
+    }
+}
