@@ -1,6 +1,7 @@
 {
     "packages": [
-        "technical/*"
+        "technical/how-to-add-a-custom-eslint-configuration-to-a-create-react-app-project/code/*",
+        "technical/how-to-customize-the-user-portal-in-wso2-identity-server-5.10.0/code/theme/*"
     ],
     "version": "0.1.0",
     "npmClient": "yarn",

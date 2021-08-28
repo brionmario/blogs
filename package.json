@@ -2,7 +2,8 @@
     "name": "@brionmario/blog-resources",
     "private": true,
     "workspaces": [
-        "technical/*"
+        "technical/how-to-add-a-custom-eslint-configuration-to-a-create-react-app-project/code/*",
+        "technical/how-to-customize-the-user-portal-in-wso2-identity-server-5.10.0/code/theme/*"
     ],
     "devDependencies": {
         "lerna": "^3.22.1"
