@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "oclif",
+    "oclif-typescript"
+  ],
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "semi": "off",
+    "no-extra-semi": "off",
+    "object-curly-spacing": [ "warn", "always" ],
+    "quotes": [ "warn", "double" ],
+    "eol-last": "error",
+    "padded-blocks": "off",
+    "array-bracket-spacing": [ "warn", "always" ],
+    "comma-dangle": "off",
+    "template-curly-spacing": [ "warn", "always" ]
+  }
+}
