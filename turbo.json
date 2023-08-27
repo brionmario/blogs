@@ -1,0 +1,22 @@
+{
+  "$schema": "./docs/public/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "env": [],
+      "outputs": ["dist/**", ".next/**"]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "typecheck": {
+      "outputs": []
+    },
+    "test": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    }
+  }
+}

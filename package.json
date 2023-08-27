@@ -1,11 +1,41 @@
 {
-    "name": "@brionmario/blog-resources",
-    "private": true,
-    "workspaces": [
-        "technical/how-to-add-a-custom-eslint-configuration-to-a-create-react-app-project/code/*",
-        "technical/how-to-customize-the-user-portal-in-wso2-identity-server-5.10.0/code/theme/*"
-    ],
-    "devDependencies": {
-        "lerna": "^3.22.1"
-    }
+  "private": true,
+  "name": "@brionmario/blogs",
+  "version": "0.0.0",
+  "description": "This repo contains resources used in my personal blog(http://brionmario.com/blog) and other publishing platforms.",
+  "author": "Brion Mario",
+  "license": "MIT",
+  "homepage": "https://github.com/brionmario/blogs#readme",
+  "bugs": {
+    "url": "https://github.com/brionmario/blogs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brionmario/blogs.git"
+  },
+  "keywords": [
+    "brionmario",
+    "blogs",
+    "resources"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,json,md,mdx}\"",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "@brionmario/eslint-plugin": "^0.2.9",
+    "eslint": "^8.29.0",
+    "eslint-config-turbo": "^0.0.7",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
+  }
 }
