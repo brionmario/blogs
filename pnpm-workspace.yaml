@@ -1,2 +1,3 @@
 packages:
   - "technical/**/*"
+  - "!technical/how-to-add-a-custom-eslint-configuration-to-a-create-react-app-project/**/*"
