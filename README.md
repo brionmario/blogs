@@ -39,6 +39,7 @@ This repo is a hub for all my blogs, where I share my thoughts, experiences, and
 - [Chennai Meetup, Chennai, India](https://youtu.be/2Ss3K2UjVUo?t=5999)
 - [React Bangalore Meetup, Bangalore, India](https://www.meetup.com/reactjs-bangalore/events/306454095/?eventOrigin=group_events_list)
 - [React Delhi Meetup, Delhi, India](https://www.linkedin.com/posts/react-delhi_reactdelhi-reactjs-websecurity-activity-7314396322839556096-xquQ/) 
+- [Node.js / Firebase Session, IDEALIZE 2023, AIESEC in University of Moratuwa](https://brionmario.github.io/me/workshops/idealize-2023-nodejs-firebase/)
 
 ## Conferences (Speaker)
 
