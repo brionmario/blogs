@@ -36,21 +36,34 @@ This repo is a hub for all my blogs, where I share my thoughts, experiences, and
 - [Journey of My Portfolio: WordPress Era](https://brionmario.com/posts/journey-of-my-portfolio-wordpress-era/)
 
 ## Workshops (Speaker)
-- [Chennai Meetup, Chennai, India](https://youtu.be/2Ss3K2UjVUo?t=5999)
-- [React Bangalore Meetup, Bangalore, India](https://www.meetup.com/reactjs-bangalore/events/306454095/?eventOrigin=group_events_list)
-- [React Delhi Meetup, Delhi, India](https://www.linkedin.com/posts/react-delhi_reactdelhi-reactjs-websecurity-activity-7314396322839556096-xquQ/) 
-- [Node.js / Firebase Session, IDEALIZE 2023, AIESEC in University of Moratuwa](https://brionmario.github.io/me/workshops/idealize-2023-nodejs-firebase/)
-- [Cracking the Technical Interview, SLIIT Computer Science Student Community (Intern Ready 3)](https://brionmario.github.io/me/workshops/sliit-cssc-intern-ready-3/) — 2026
+- [Cracking the Technical Interview, SLIIT CSSC Intern Ready 3](https://brionmario.github.io/me/workshops/sliit-cssc-intern-ready-3/) (2026, Malabe, Sri Lanka)
+- [Node.js / Firebase Session, IDEALIZE](https://brionmario.github.io/me/workshops/idealize-2023-nodejs-firebase/) (2023, Moratuwa, Sri Lanka)
+- [UX Workshop, DesignSprint Workshop of CodeSprint 7.0, IEEE Committee of IIT](https://brionmario.github.io/me/workshops/codesprint-7-ux-workshop/) (2023, Colombo, Sri Lanka)
+
+## Meetup (Speaker)
+
+- [React Delhi Meetup #9](https://www.linkedin.com/posts/react-delhi_reactdelhi-reactjs-websecurity-activity-7314396322839556096-xquQ/) (2025, Delhi, India)
+- [Chennai React Meetup #10](https://youtu.be/2Ss3K2UjVUo?t=5999) (2025, Chennai, India)
+- [React Bangalore Meetup #87](https://www.meetup.com/reactjs-bangalore/events/306454095/?eventOrigin=group_events_list) (2025, Bangalore, India)
+- [Design Systems for the Enterprise, JavaScript Colombo #1](https://x.com/javascriptcmb/status/1853418829885653020?s=20) (2024, Colombo, Sri Lanka)
+
+## Meetup (Organizer)
+
+- [JavaScript Colombo](https://www.javascriptcolombo.com/) (Colombo, Sri Lanka)
 
 ## Conferences (Speaker)
 
-- [Early Prediction of Cybersickness in Virtual, Augmented & Mixed Reality Applications: A Review](https://ieeexplore.ieee.org/document/9033650/) — 5th International Conference for Convergence in Technology (I2CT), Pune, India, 2019
+- [Early Prediction of Cybersickness in Virtual, Augmented & Mixed Reality Applications: A Review, 5th International Conference for Convergence in Technology](https://ieeexplore.ieee.org/document/9033650/) (2019, Pune, India)
 
 ## Competitions (Participant)
 
-- Innoserve Awards 2017, Industrial Development Bureau, Ministry of Economic Affairs, Taipei, Taiwan (Nov 2017)
-- HackLN 2017, University of Kelaniya (Nov 2017)
-- National Best Quality ICT Awards (NBQSA), BCS The Chartered Institute for IT (Oct 2017)
-- Global Student Entrepreneur Awards (GSEA), Top 8 student entrepreneurs globally (Feb 2017)
-- Cutting Edge 2016, Informatics Institute of Technology (Jun 2016)
-- iHack 2.0, University of Colombo School of Computing (Oct 2016)
+- Innoserve Awards, Industrial Development Bureau, Ministry of Economic Affairs (2017, Taipei, Taiwan)
+- HackLN, University of Kelaniya (2017)
+- National Best Quality ICT Awards (NBQSA), BCS The Chartered Institute for IT (2017)
+- Global Student Entrepreneur Awards (GSEA), Top 8 student entrepreneurs globally (2017)
+- iHack 2.0, University of Colombo School of Computing (2016)
+- Cutting Edge, Informatics Institute of Technology (2016)
+
+## Competitions (Judge)
+
+- Cutting Edge, Informatics Institute of Technology (2020, Colombo, Sri Lanka)
