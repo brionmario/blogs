@@ -35,6 +35,11 @@ This repo is a hub for all my blogs, where I share my thoughts, experiences, and
 - [Journey of My Portfolio: Where It All Started](https://brionmario.com/posts/journey-of-my-portfolio-where-it-all-started/)
 - [Journey of My Portfolio: WordPress Era](https://brionmario.com/posts/journey-of-my-portfolio-wordpress-era/)
 
+## Articles
+
+- [Simplify Application Login Flows with Asgardeo's New Visual Editor](https://wso2.com/library/blogs/simplify-application-login-flows-with-asgardeos-new-visual-editor/) (26 Feb 2024)
+- [Introducing Asgardeo's New Organization Branding Feature](https://wso2.com/blogs/thesource/introducing-asgardeos-new-organization-branding-feature/) (07 Jul 2022)
+
 ## Workshops (Speaker)
 - [Cracking the Technical Interview, SLIIT CSSC Intern Ready 3](https://brionmario.github.io/me/workshops/sliit-cssc-intern-ready-3/) (2026, Malabe, Sri Lanka)
 - [Node.js / Firebase Session, IDEALIZE](https://brionmario.github.io/me/workshops/idealize-2023-nodejs-firebase/) (2023, Moratuwa, Sri Lanka)
