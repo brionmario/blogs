@@ -41,16 +41,16 @@ This repo is a hub for all my blogs, where I share my thoughts, experiences, and
 - [Introducing Asgardeo's New Organization Branding Feature](https://wso2.com/blogs/thesource/introducing-asgardeos-new-organization-branding-feature/) (07 Jul 2022)
 
 ## Workshops (Speaker)
-- [Cracking the Technical Interview, SLIIT CSSC Intern Ready 3](https://brionmario.github.io/me/workshops/sliit-cssc-intern-ready-3/) (2026, Malabe, Sri Lanka)
-- [Node.js / Firebase Session, IDEALIZE](https://brionmario.github.io/me/workshops/idealize-2023-nodejs-firebase/) (2023, Moratuwa, Sri Lanka)
-- [UX Workshop, DesignSprint Workshop of CodeSprint 7.0, IEEE Committee of IIT](https://brionmario.github.io/me/workshops/codesprint-7-ux-workshop/) (2023, Colombo, Sri Lanka)
+- Cracking the Technical Interview, SLIIT CSSC Intern Ready 3 (2026, Malabe, Sri Lanka) · [📑 Grab Slides](https://brionmario.github.io/me/workshops/sliit-cssc-intern-ready-3/)
+- Node.js / Firebase Session, IDEALIZE (2023, Moratuwa, Sri Lanka) · [📑 Grab Slides](https://brionmario.github.io/me/workshops/idealize-2023-nodejs-firebase/)
+- UX Workshop, DesignSprint Workshop of CodeSprint 7.0, IEEE Committee of IIT (2023, Colombo, Sri Lanka) · [📑 Grab Slides](https://brionmario.github.io/me/workshops/codesprint-7-ux-workshop/)
 
 ## Meetup (Speaker)
 
-- [React Delhi Meetup #9](https://www.linkedin.com/posts/react-delhi_reactdelhi-reactjs-websecurity-activity-7314396322839556096-xquQ/) (2025, Delhi, India)
-- [Chennai React Meetup #10](https://youtu.be/2Ss3K2UjVUo?t=5999) (2025, Chennai, India)
+- [React Delhi Meetup #9](https://www.linkedin.com/posts/react-delhi_reactdelhi-reactjs-websecurity-activity-7314396322839556096-xquQ/) (2025, Delhi, India) · [📑 Grab Slides](https://brionmario.github.io/me/workshops/mastering-secure-login-react-apps/)
+- [Chennai React Meetup #10](https://youtu.be/2Ss3K2UjVUo?t=5999) (2025, Chennai, India) · [📑 Grab Slides](https://brionmario.github.io/me/workshops/mastering-secure-login-react-apps/)
 - [React Bangalore Meetup #87](https://www.meetup.com/reactjs-bangalore/events/306454095/?eventOrigin=group_events_list) (2025, Bangalore, India)
-- [Design Systems for the Enterprise, JavaScript Colombo #1](https://x.com/javascriptcmb/status/1853418829885653020?s=20) (2024, Colombo, Sri Lanka)
+- [Design Systems for the Enterprise, JavaScript Colombo #1](https://x.com/javascriptcmb/status/1853418829885653020?s=20) (2024, Colombo, Sri Lanka) · [📑 Grab Slides](https://brionmario.github.io/me/workshops/building-enterprise-design-system-2024/)
 
 ## Meetup (Organizer)
 
